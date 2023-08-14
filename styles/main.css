@@ -504,6 +504,19 @@ body{
     opacity: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+.myWorks__link{
+    font-size: 20px;
+    font-family: 'Roboto';
+    line-height: 26px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
 /* .myWorks__btn:hover{
     background:orangered ; 
     color: white;
@@ -517,7 +530,12 @@ body{
 .myWorks__items:hover .myWorks__img{
     opacity: 0.2;
     transition: 0.5s;
+    /* transform: scale(1.3); */
 }
+
+/* .myWorks__img{
+   opacity: 0.2;
+} */
 
 .box__right{
     display: flex;
@@ -584,8 +602,6 @@ body{
     color: black;
     background: orangered; */
     background: rgb(103, 144, 6);
-    
-
 }
 
 .footer{
@@ -629,11 +645,12 @@ body{
 .footer__top-box_link{
     padding: 10px 12px;
     transition: 0.4s;
-    border-radius: 25px;  
+    border-radius: 25px; 
 }
 
 .footer__top-box_link:hover{
     background: rgb(103, 144, 6); 
+    transform: translateY(-10px);
 }
 
 .myWorks__items{
@@ -653,4 +670,48 @@ body{
    background:orangered ;
    /* background: rgb(103, 144, 6);  */
    color: white;
+   
+}
+
+.myWorks__title2{
+    position: absolute;
+    top: auto;
+    left: 100px;
+    /* right: auto; */
+    height: 80px;
+    padding: 15px 55px;
+    font-size: 45px;
+    font-family: 'Roboto';
+    line-height: 26px;
+    font-weight: 700;
+    color: white;
+    background: #000;
+    display: flex;
+    align-items: center;
+    /* border-radius: 20px; */
+    
+}
+
+.myWorks__title3{
+    position: absolute;
+    top: auto;
+    left: 70px;
+    /* right: auto; */
+    height: 80px;
+    padding: 15px 55px;
+    font-size: 45px;
+    font-family: 'Roboto';
+    line-height: 26px;
+    font-weight: 700;
+    color: white;
+    background: #000;
+    display: flex;
+    align-items: center;
+    /* border-radius: 20px; */
+    
+}
+
+.myWorks__img{
+    position: relative;
+    
 }
